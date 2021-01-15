@@ -13,7 +13,7 @@ describe("Login Scenario111",function() {
     })
 
     it('TC001', ()=> {
-      assert.equal('My account - My Sto', browser.getTitle(), 'Title is Not Correct');
+      assert.equal('My account - My Store', browser.getTitle(), 'Title is Not Correct');
     });
 
     afterEach(function() {
